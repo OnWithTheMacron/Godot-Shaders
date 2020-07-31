@@ -10,7 +10,7 @@ render_mode cull_disabled, unshaded, shadows_disabled;
 uniform sampler2D Texture;
 uniform vec4 Shield_Color : hint_color;
 uniform sampler2D Noise_Texture;
-uniform float Dissolve_neg1_to_1;
+uniform float Disolve_neg1_to_1;
 
 
 // TRIPLANAR FUNCTION GLOBAL CODE
@@ -88,7 +88,7 @@ void fragment() {
 	}
 
 // ScalarUniform:24
-	float n_out24p0 = Dissolve_neg1_to_1;
+	float n_out24p0 = Disolve_neg1_to_1;
 
 // ScalarFunc:4
 	float n_out4p0 = sin(n_out24p0);
