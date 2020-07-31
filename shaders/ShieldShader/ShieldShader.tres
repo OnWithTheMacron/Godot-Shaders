@@ -10,7 +10,7 @@ render_mode cull_disabled, unshaded, shadows_disabled;
 uniform sampler2D Texture;
 uniform vec4 Shield_Color : hint_color;
 uniform sampler2D Noise_Texture;
-uniform float Disolve_neg1_to_1;
+uniform float Dissolve_neg1_to_1;
 
 
 // TRIPLANAR FUNCTION GLOBAL CODE
